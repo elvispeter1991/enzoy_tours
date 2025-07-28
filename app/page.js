@@ -13,17 +13,17 @@ const featuredTours = [
   {
     id: 2,
     title: 'Day Tours',
-    image: '/images/tour-2.jpg',
+    image: './images/tour-2.jpg',
   },
   {
     id: 3,
     title: 'Overnight Tours',
-    image: '/images/tour-3.jpg',
+    image: './images/tour-3.jpg',
   },
    {
     id: 4,
     title: 'Multi Day Tours',
-    image: '/images/tour-4.jpg',
+    image: './images/tour-4.jpg',
   },
 ];
 
@@ -54,7 +54,7 @@ const Header = () => (
     <div className="container mx-auto flex justify-between items-center">
       {/* LOGO IMAGE HERE */}
       <Image
-        src="/images/Enzoy_Logo.png" 
+        src="./images/Enzoy_Logo.png" 
         alt="EnzoTours Logo"
         width={150}
         height={40}
@@ -178,7 +178,7 @@ const Footer = () => (
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <Image
-        src="/images/Enzoy_Logo.png" 
+        src="./images/Enzoy_Logo.png" 
         alt="EnzoTours Logo"
         width={150}
         height={40}
