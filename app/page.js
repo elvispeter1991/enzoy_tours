@@ -8,7 +8,7 @@ const featuredTours = [
   {
     id: 1,
     title: 'Half Day Tours',
-    image: '/images/tour-1.jpg'
+    image: './images/tour-1.jpg'
   },
   {
     id: 2,
